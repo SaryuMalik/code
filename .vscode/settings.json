@@ -1,0 +1,7 @@
+{
+  "files.associations": {
+    "*.HTML": "html",
+    "iostream": "cpp",
+    "type_traits": "cpp"
+  }
+}
