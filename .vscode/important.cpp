@@ -3,13 +3,13 @@
 #include <unordered_map>
 
 using namespace std ;
-int  searchOccurence(vector<int> &arr)
+int  searchOccurence1(vector<int> &arr)
 {
   int n = arr.size() ;
   int sum = 0 ;
   unordered_map<int , int> m ;
   unordered_map<int , int> odd ;
-  for (int i = 0 ; i < n ; i++)
+  for (int i = 0 ;  i < n ; i++)
   {
     m[arr[i]]++ ;
   }
@@ -36,6 +36,6 @@ int  searchOccurence(vector<int> &arr)
 int main() 
 {
   vector<int>arr = {1,1,1,2,2,2,2,3,3,3,4,5,5,5,5,5} ;
-  int ans = searchOccurence(arr) ;
+  int ans = searchOccurence1(arr) ;
   cout << ans ;
 }
